@@ -2,9 +2,10 @@
 body{
     max-width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: auto;
-    border: 2px solid black;
+    background-color: white;
 }
 
 nav{
@@ -62,3 +63,41 @@ ul{
     margin: auto 30px auto 30px;
 }
 
+/*MAIN*/
+
+main {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    margin-top: 5%;
+}
+
+#description {
+    display: flex;
+    flex-direction: row;
+}
+
+#subscribe {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 1%;
+}
+
+#likeButtons {
+    margin-top: 8%;
+}
+
+#like, #dislike, #share {
+    padding: 4%;
+}
+
+aside {
+    margin-left: 8%;
+}
+
+.thumbnail {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
