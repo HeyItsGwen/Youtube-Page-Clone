@@ -30,7 +30,6 @@ nav{
     margin: auto 40px auto 20px;
 }
 
-
 ul{
     list-style-type: none; 
     display: flex;
@@ -71,9 +70,12 @@ main {
     margin: 5% 5% auto 5%;
 }
 
-#video{
-    max-width: auto;
+iframe{
+    width: 100%;
+    max-width: 876px;
+    height: 500px;
 }
+
 
 #description {
     display: flex;

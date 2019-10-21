@@ -1,33 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang='en-us'>
 
     <head>
         <title>Youtube Clone Ara and Gwen</title>
         <link href='YoutubeClone.css' rel='stylesheet' type='text/css'>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
     </head>
    
     <body>
         <nav>
             <ul>
-                <li><img src='Images/youtubeLogoResized.png' id='logo'></li>
+                <li><img src='Images/youtubeLogoResized.png' id='logo' alt='Youtube Logo'></li>
             
                 <li><input id='searchBar' type='text' name='Search' placeholder='Search'></li>
             
                 <li><button id='searchButton'>search</button></li>
             
-                <li><a href='#' id='upload'><img src='Images/UploadIcon.png'></a></li>
+                <li><a href='#' id='upload'><img src='Images/UploadIcon.png' alt='Youtube Upload Icon'></a></li>
             
                 <li><button id='signInButton'>sign in</button></li>
 
-                <li><img id='avatar' src='Images/Avatar.png'></li>
+                <li><img id='avatar' src='Images/Avatar.png' alt='Youtube Avatar Image'></li>
             </ul>
         </nav>
 
         <main id='mainContent'>
-            <div id='video'>
+            <div id='videoHolder'>
                 <section id='video'>
-                    <iframe width="100%" max-width="876px" height="500px" src="https://www.youtube.com/embed/V74l_zS1x8E" 
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    <iframe src="https://www.youtube.com/embed/V74l_zS1x8E" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                     allowfullscreen></iframe>
                 </section>
 
@@ -51,7 +53,7 @@
             <aside>
                 <section id='sidebar'>
                     <div class="thumbnail">
-                            <img src="Images/thumbnail.jpg" alt="Youtube Video thumbnail" id="one">
+                            <img src="Images/thumbnail.jpg" alt="Youtube Video thumbnail">
                             <div>
                                 <h4>Contributing to Open Source II</h4>
                                 <h5>29,005 views</h5>
@@ -59,7 +61,7 @@
                     </div>  
                     
                     <div class="thumbnail">
-                            <img src="Images/thumbnail.jpg" alt="Youtube Video thumbnail" id="one">
+                            <img src="Images/thumbnail.jpg" alt="Youtube Video thumbnail">
                             <div>
                                 <h4>Contributing to Open Source II</h4>
                                 <h5>29,005 views</h5>
@@ -67,7 +69,7 @@
                     </div> 
 
                     <div class="thumbnail">
-                            <img src="Images/thumbnail.jpg" alt="Youtube Video thumbnail" id="one">
+                            <img src="Images/thumbnail.jpg" alt="Youtube Video thumbnail">
                             <div>
                                 <h4>Contributing to Open Source II</h4>
                                 <h5>29,005 views</h5>
