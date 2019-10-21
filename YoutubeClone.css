@@ -1,1 +1,15 @@
-/*Empty file for project CSS*/
+/*NAVBAR*/
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50px;
+}
+
+#logoHolder{
+    width: 100%;
+    height: auto;
+}
+
+
