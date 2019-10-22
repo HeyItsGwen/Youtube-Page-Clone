@@ -83,6 +83,11 @@ main {
     height: 500px;
 }
 
+#video h2 {
+    position: absolute;
+    visibility: hidden;
+}
+
 main {
     width: auto;
     display: grid;
