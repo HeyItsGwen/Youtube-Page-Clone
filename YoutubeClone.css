@@ -67,7 +67,7 @@ main {
     width: auto;
     display: grid;
     grid-template-columns: 1fr .5fr;
-    margin: 5% 5% auto 5%;
+    margin: 5% 5% auto 10%;
 }
 
 iframe{
