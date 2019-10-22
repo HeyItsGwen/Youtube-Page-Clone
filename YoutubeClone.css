@@ -129,7 +129,6 @@ main {
 }
 
 
-
 aside {
     margin-left: 8%;
     background-color: white;
@@ -144,4 +143,5 @@ aside {
     display: flex;
     flex-direction: row;
     margin-top: 5%;
+    padding: 0 3% 2% 2%;
 }
