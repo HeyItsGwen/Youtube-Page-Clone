@@ -88,13 +88,6 @@ main {
     visibility: hidden;
 }
 
-main {
-    width: auto;
-    display: grid;
-    grid-template-columns: 1fr .5fr;
-    margin-top: 5%;
-}
-
 #description {
     width: 100%;
     display: flex;
@@ -148,6 +141,7 @@ aside {
 .one{
     min-width: 168px;
     max-height: 99.65px;
+
 }
 
 .thumbnail {
