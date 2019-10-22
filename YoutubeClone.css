@@ -31,6 +31,12 @@ nav{
     margin: auto 40px auto 20px;
 }
 
+#signInButton {
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+    padding: 4px;
+}
 
 ul{
     list-style-type: none; 
